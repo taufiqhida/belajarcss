@@ -1,0 +1,174 @@
+body, *{
+	margin: 0;
+	font-family: Poppins;
+}
+@font-face{
+	font-family: SignPainter-HouseScript-Regular;
+	src: url(fonts/SignPainter-HouseScript-Regular/SignPainter-HouseScript-Regular.ttf);
+}
+@font-face{
+	font-family: Poppins;
+	src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
+.navbar{
+	height: 70px;
+	width: 100%;
+	display: flex;
+	background-color: #20323B;
+	box-shadow: 1px 2px 3px;
+
+}
+
+.content{
+	width: 90%;
+	display: flex;
+	margin: auto;
+}
+.judul{
+	color: white;
+}
+.menu{
+	margin-left: auto;
+	padding: 10px;
+}
+.menu a{
+	padding: 20px;
+	color:white;
+	text-decoration: none;
+}
+.banner{
+	background-image:url(Images/banner-1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 530px;
+	background-size: cover;
+	display: flex;
+	background-position: bottom;
+}
+.konten{
+	margin: auto;
+	text-align: center;
+	font-family: SignPainter-HouseScript-Regular;
+	color: white;
+}
+.konten button{
+	border-radius: 10px;
+	background-color:#31BE6C;
+}	
+.konten button:hover{
+	border-radius: 10px;
+	background-color:#31BE6C;
+}
+.logo{
+	margin: auto;
+	text-align: center;
+}
+.data{
+	/*display: flex;*/
+	/*color: green;*/
+	margin: auto;
+
+}
+.box{
+	display: inline-block;
+	width: 200px;
+	height:300px;
+	margin: 10px;
+	vertical-align: bottom;
+}
+.box img{
+	margin-bottom: 20px;
+
+}
+
+.gambar{
+	margin: auto;
+	text-align: center;
+}
+h1{
+	font-family:SignPainter-HouseScript-Regular;
+}
+
+.isi{
+	display: flex;
+	padding: 0px 100px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+}
+.bix{
+	width: 24%;
+	box-shadow: 1px 1px 5px grey;
+}
+.bix-images{
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+
+}
+.dis{
+	padding: 15px;
+}
+.dis p{
+	font-size: 14px;
+}
+.logo > p{
+	margin-bottom: 50px;
+}
+.gambar > p{
+	margin-bottom: 50px;
+}
+.footer{
+	background-color: #20323B;
+	display: flex;
+	padding:50px;
+	color: white;
+}
+.left{
+	padding: 1px 1px;
+	width:33.33%;
+}
+.left > img{
+	margin: auto;
+}
+.left > h2{
+	font-weight: 100;
+	margin-bottom: 5px;
+}
+.left > p > input{
+	border-radius: 10px;
+	width: 300px;
+	height: 25px;
+}
+.masuk{
+	border-radius: 10px;
+	width: 300px;
+	height: 100px;
+}
+.hola{
+	height:300px;
+	background-color:red;
+	width:500px;
+	position:relative;
+}
+.hola:after{
+		content:'';
+		height: 100%;
+		width: 100%;
+		position:absolute;
+		left:50px;
+		background-color:rgba(0,0,0,0.4);
+}
+.bawah{
+	display: flex;
+	background-color: #080F17;
+	padding: 20px 50px;
+	color: white;
+}
+.bawah > .copyright{
+	margin-right: auto;
+}
+.bawah > .sosmed{
+	margin: left;
+
+}
